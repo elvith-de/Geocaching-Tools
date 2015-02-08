@@ -160,7 +160,7 @@ def doDecodeDTMF(frequencies, sfreq, numSamples):
 #naive method to find start and end of key press
 #Assumes silence between keys.
 #Optionally increase threshold when audio is noisy
-def findSoundToAnalyze(wavdata, threshold=0.1):
+def findSoundToAnalyze(wavdata, threshold=0.2):
 	#Start in Mode "silence"
 	mode = 'silence'
 	start = None
