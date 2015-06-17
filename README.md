@@ -14,3 +14,6 @@ PS> ConvertFrom-BinaryString -inputString $text
 
 ## DTMF.py
 Tries to decode DTMF. Not clean, but worked for me.
+
+## ListingRotate.py
+Does a rot13 on a given textfile, also applies rot5 on all numbers at the same time
